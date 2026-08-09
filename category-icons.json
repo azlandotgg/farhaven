@@ -1,0 +1,13 @@
+{
+  "animals": "pawprint.fill",
+  "binaural": "waveform.path.ecg",
+  "events-culture": "party.popper.fill",
+  "nature": "leaf.fill",
+  "noise": "dot.radiowaves.left.and.right",
+  "objects": "shippingbox.fill",
+  "places": "mappin.and.ellipse",
+  "rain": "cloud.rain.fill",
+  "transport": "car.fill",
+  "urban": "building.2.fill",
+  "worship": "building.columns.fill"
+}

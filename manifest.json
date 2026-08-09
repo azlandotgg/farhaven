@@ -1,5 +1,5 @@
 {
-  "version": 1786282201607,
+  "version": 1786294865365,
   "categories": {
     "rain": "Rain",
     "worship": "Worship",
@@ -12,6 +12,52 @@
     "binaural": "Binaural",
     "noise": "Noise",
     "urban": "Urban"
+  },
+  "categoryIcons": {
+    "rain": {
+      "icon": "cloud.rain.fill",
+      "iconLucide": "cloud-rain"
+    },
+    "worship": {
+      "icon": "building.columns.fill",
+      "iconLucide": "landmark"
+    },
+    "nature": {
+      "icon": "leaf.fill",
+      "iconLucide": "leaf"
+    },
+    "places": {
+      "icon": "mappin.and.ellipse",
+      "iconLucide": "map-pin"
+    },
+    "animals": {
+      "icon": "pawprint.fill",
+      "iconLucide": "paw-print"
+    },
+    "events-culture": {
+      "icon": "party.popper.fill",
+      "iconLucide": "party-popper"
+    },
+    "objects": {
+      "icon": "shippingbox.fill",
+      "iconLucide": "package"
+    },
+    "transport": {
+      "icon": "car.fill",
+      "iconLucide": "car"
+    },
+    "binaural": {
+      "icon": "waveform.path.ecg",
+      "iconLucide": "activity"
+    },
+    "noise": {
+      "icon": "dot.radiowaves.left.and.right",
+      "iconLucide": "radio-tower"
+    },
+    "urban": {
+      "icon": "building.2.fill",
+      "iconLucide": "building-2"
+    }
   },
   "sounds": [
     {
@@ -70,8 +116,8 @@
       "category": "rain",
       "file": "rain-on-leaves.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/rain-on-leaves.mp3",
-      "icon": "cloud.rain.fill",
-      "iconLucide": "cloud-rain",
+      "icon": "waveform",
+      "iconLucide": "audio-lines",
       "bundled": false
     },
     {
@@ -230,8 +276,8 @@
       "category": "nature",
       "file": "waterfall.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/waterfall.mp3",
-      "icon": "water.waves",
-      "iconLucide": "waves",
+      "icon": "drop.triangle.fill",
+      "iconLucide": "droplet",
       "bundled": false
     },
     {
@@ -270,8 +316,8 @@
       "category": "places",
       "file": "underwater.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/underwater.mp3",
-      "icon": "water.waves",
-      "iconLucide": "waves",
+      "icon": "waveform",
+      "iconLucide": "audio-lines",
       "bundled": true
     },
     {
@@ -360,8 +406,8 @@
       "category": "animals",
       "file": "wolf.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/wolf.mp3",
-      "icon": "pawprint.fill",
-      "iconLucide": "paw-print",
+      "icon": "dog.fill",
+      "iconLucide": "dog",
       "bundled": true
     },
     {
@@ -430,8 +476,8 @@
       "category": "animals",
       "file": "crows.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/crows.mp3",
-      "icon": "bird.fill",
-      "iconLucide": "bird",
+      "icon": "waveform",
+      "iconLucide": "audio-lines",
       "bundled": false
     },
     {
@@ -470,8 +516,8 @@
       "category": "animals",
       "file": "owl.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/owl.mp3",
-      "icon": "bird.fill",
-      "iconLucide": "bird",
+      "icon": "waveform",
+      "iconLucide": "audio-lines",
       "bundled": false
     },
     {
