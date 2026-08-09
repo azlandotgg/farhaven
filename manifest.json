@@ -1,5 +1,5 @@
 {
-  "version": 1786280094011,
+  "version": 1786282201607,
   "categories": {
     "rain": "Rain",
     "worship": "Worship",
@@ -21,6 +21,7 @@
       "file": "heavy-rain.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/heavy-rain.mp3",
       "icon": "cloud.heavyrain.fill",
+      "iconLucide": "cloud-rain-wind",
       "bundled": true
     },
     {
@@ -30,6 +31,7 @@
       "file": "rain-on-car-roof.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/rain-on-car-roof.mp3",
       "icon": "cloud.rain.fill",
+      "iconLucide": "cloud-rain",
       "bundled": true
     },
     {
@@ -39,6 +41,7 @@
       "file": "rain-on-window.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/rain-on-window.mp3",
       "icon": "cloud.rain.fill",
+      "iconLucide": "cloud-rain",
       "bundled": true
     },
     {
@@ -48,6 +51,7 @@
       "file": "thunder.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/thunder.mp3",
       "icon": "cloud.bolt.fill",
+      "iconLucide": "cloud-lightning",
       "bundled": true
     },
     {
@@ -57,6 +61,7 @@
       "file": "light-rain.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/light-rain.mp3",
       "icon": "cloud.drizzle.fill",
+      "iconLucide": "cloud-drizzle",
       "bundled": false
     },
     {
@@ -66,6 +71,7 @@
       "file": "rain-on-leaves.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/rain-on-leaves.mp3",
       "icon": "cloud.rain.fill",
+      "iconLucide": "cloud-rain",
       "bundled": false
     },
     {
@@ -75,6 +81,7 @@
       "file": "rain-on-tent.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/rain-on-tent.mp3",
       "icon": "tent.fill",
+      "iconLucide": "tent",
       "bundled": false
     },
     {
@@ -84,6 +91,7 @@
       "file": "rain-on-umbrella.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/rain-on-umbrella.mp3",
       "icon": "umbrella.fill",
+      "iconLucide": "umbrella",
       "bundled": false
     },
     {
@@ -93,6 +101,7 @@
       "file": "blue-mosque-istanbul.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/blue-mosque-istanbul.mp3",
       "icon": "moon.fill",
+      "iconLucide": "moon",
       "bundled": true
     },
     {
@@ -102,6 +111,7 @@
       "file": "church.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/church.mp3",
       "icon": "cross.fill",
+      "iconLucide": "church",
       "bundled": true
     },
     {
@@ -111,6 +121,7 @@
       "file": "montbell-bonsho-von-japan.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/montbell-bonsho-von-japan.mp3",
       "icon": "bell.fill",
+      "iconLucide": "bell",
       "bundled": true
     },
     {
@@ -120,6 +131,7 @@
       "file": "temple.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/temple.mp3",
       "icon": "building.columns.fill",
+      "iconLucide": "landmark",
       "bundled": true
     },
     {
@@ -129,6 +141,7 @@
       "file": "campfire.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/campfire.mp3",
       "icon": "flame.fill",
+      "iconLucide": "flame",
       "bundled": true
     },
     {
@@ -138,6 +151,7 @@
       "file": "walk-in-snow.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/walk-in-snow.mp3",
       "icon": "snowflake",
+      "iconLucide": "snowflake",
       "bundled": true
     },
     {
@@ -147,6 +161,7 @@
       "file": "waves.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/waves.mp3",
       "icon": "water.waves",
+      "iconLucide": "waves",
       "bundled": true
     },
     {
@@ -156,6 +171,7 @@
       "file": "droplets.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/droplets.mp3",
       "icon": "drop.fill",
+      "iconLucide": "droplet",
       "bundled": false
     },
     {
@@ -165,6 +181,7 @@
       "file": "howling-wind.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/howling-wind.mp3",
       "icon": "wind",
+      "iconLucide": "wind",
       "bundled": false
     },
     {
@@ -174,6 +191,7 @@
       "file": "jungle.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/jungle.mp3",
       "icon": "leaf.fill",
+      "iconLucide": "leaf",
       "bundled": false
     },
     {
@@ -183,6 +201,7 @@
       "file": "river.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/river.mp3",
       "icon": "water.waves",
+      "iconLucide": "waves",
       "bundled": false
     },
     {
@@ -192,6 +211,7 @@
       "file": "walk-on-gravel.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/walk-on-gravel.mp3",
       "icon": "figure.walk",
+      "iconLucide": "footprints",
       "bundled": false
     },
     {
@@ -201,6 +221,7 @@
       "file": "walk-on-leaves.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/walk-on-leaves.mp3",
       "icon": "leaf.fill",
+      "iconLucide": "leaf",
       "bundled": false
     },
     {
@@ -210,6 +231,7 @@
       "file": "waterfall.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/waterfall.mp3",
       "icon": "water.waves",
+      "iconLucide": "waves",
       "bundled": false
     },
     {
@@ -219,6 +241,7 @@
       "file": "wind.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/wind.mp3",
       "icon": "wind",
+      "iconLucide": "wind",
       "bundled": false
     },
     {
@@ -228,6 +251,7 @@
       "file": "cafe.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/cafe.mp3",
       "icon": "cup.and.saucer.fill",
+      "iconLucide": "coffee",
       "bundled": true
     },
     {
@@ -237,6 +261,7 @@
       "file": "library.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/library.mp3",
       "icon": "books.vertical.fill",
+      "iconLucide": "library",
       "bundled": true
     },
     {
@@ -246,6 +271,7 @@
       "file": "underwater.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/underwater.mp3",
       "icon": "water.waves",
+      "iconLucide": "waves",
       "bundled": true
     },
     {
@@ -255,6 +281,7 @@
       "file": "construction-site.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/construction-site.mp3",
       "icon": "hammer.fill",
+      "iconLucide": "hammer",
       "bundled": false
     },
     {
@@ -264,6 +291,7 @@
       "file": "crowded-bar.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/crowded-bar.mp3",
       "icon": "wineglass.fill",
+      "iconLucide": "wine",
       "bundled": false
     },
     {
@@ -273,6 +301,7 @@
       "file": "laundry-room.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/laundry-room.mp3",
       "icon": "tshirt.fill",
+      "iconLucide": "shirt",
       "bundled": false
     },
     {
@@ -282,6 +311,7 @@
       "file": "night-village.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/night-village.mp3",
       "icon": "moon.stars.fill",
+      "iconLucide": "moon-star",
       "bundled": false
     },
     {
@@ -291,6 +321,7 @@
       "file": "office.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/office.mp3",
       "icon": "briefcase.fill",
+      "iconLucide": "briefcase",
       "bundled": false
     },
     {
@@ -300,6 +331,7 @@
       "file": "restaurant.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/restaurant.mp3",
       "icon": "fork.knife",
+      "iconLucide": "utensils",
       "bundled": false
     },
     {
@@ -309,6 +341,7 @@
       "file": "subway-station.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/subway-station.mp3",
       "icon": "m.circle.fill",
+      "iconLucide": "train-front",
       "bundled": false
     },
     {
@@ -318,6 +351,7 @@
       "file": "supermarket.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/supermarket.mp3",
       "icon": "cart.fill",
+      "iconLucide": "shopping-cart",
       "bundled": false
     },
     {
@@ -327,6 +361,7 @@
       "file": "wolf.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/wolf.mp3",
       "icon": "pawprint.fill",
+      "iconLucide": "paw-print",
       "bundled": true
     },
     {
@@ -336,6 +371,7 @@
       "file": "woodpecker.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/woodpecker.mp3",
       "icon": "tree.fill",
+      "iconLucide": "tree-pine",
       "bundled": true
     },
     {
@@ -345,6 +381,7 @@
       "file": "beehive.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/beehive.mp3",
       "icon": "ant.fill",
+      "iconLucide": "bug",
       "bundled": false
     },
     {
@@ -354,6 +391,7 @@
       "file": "birds.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/birds.mp3",
       "icon": "bird.fill",
+      "iconLucide": "bird",
       "bundled": false
     },
     {
@@ -363,6 +401,7 @@
       "file": "cat-purring.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/cat-purring.mp3",
       "icon": "cat.fill",
+      "iconLucide": "cat",
       "bundled": false
     },
     {
@@ -372,6 +411,7 @@
       "file": "chickens.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/chickens.mp3",
       "icon": "bird.fill",
+      "iconLucide": "bird",
       "bundled": false
     },
     {
@@ -381,6 +421,7 @@
       "file": "cows.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/cows.mp3",
       "icon": "pawprint.fill",
+      "iconLucide": "paw-print",
       "bundled": false
     },
     {
@@ -390,6 +431,7 @@
       "file": "crows.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/crows.mp3",
       "icon": "bird.fill",
+      "iconLucide": "bird",
       "bundled": false
     },
     {
@@ -399,6 +441,7 @@
       "file": "dog-barking.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/dog-barking.mp3",
       "icon": "dog.fill",
+      "iconLucide": "dog",
       "bundled": false
     },
     {
@@ -408,6 +451,7 @@
       "file": "frog.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/frog.mp3",
       "icon": "lizard.fill",
+      "iconLucide": "worm",
       "bundled": false
     },
     {
@@ -417,6 +461,7 @@
       "file": "horse-gallop.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/horse-gallop.mp3",
       "icon": "figure.equestrian.sports",
+      "iconLucide": "paw-print",
       "bundled": false
     },
     {
@@ -426,6 +471,7 @@
       "file": "owl.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/owl.mp3",
       "icon": "bird.fill",
+      "iconLucide": "bird",
       "bundled": false
     },
     {
@@ -435,6 +481,7 @@
       "file": "seagulls.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/seagulls.mp3",
       "icon": "beach.umbrella.fill",
+      "iconLucide": "palmtree",
       "bundled": false
     },
     {
@@ -444,6 +491,7 @@
       "file": "whale.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/whale.mp3",
       "icon": "fish.fill",
+      "iconLucide": "fish",
       "bundled": false
     },
     {
@@ -453,6 +501,7 @@
       "file": "wedding-in-minya.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/events-culture/wedding-in-minya.mp3",
       "icon": "heart.fill",
+      "iconLucide": "heart",
       "bundled": true
     },
     {
@@ -462,6 +511,7 @@
       "file": "live-football-match.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/events-culture/live-football-match.mp3",
       "icon": "soccerball",
+      "iconLucide": "goal",
       "bundled": false
     },
     {
@@ -471,6 +521,7 @@
       "file": "mother-earth.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/events-culture/mother-earth.mp3",
       "icon": "waveform",
+      "iconLucide": "audio-lines",
       "bundled": false
     },
     {
@@ -480,6 +531,7 @@
       "file": "windshield-wipers.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/windshield-wipers.mp3",
       "icon": "car.fill",
+      "iconLucide": "car",
       "bundled": true
     },
     {
@@ -489,6 +541,7 @@
       "file": "ceiling-fan.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/ceiling-fan.mp3",
       "icon": "fan.fill",
+      "iconLucide": "fan",
       "bundled": false
     },
     {
@@ -498,6 +551,7 @@
       "file": "clock.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/clock.mp3",
       "icon": "clock.fill",
+      "iconLucide": "clock",
       "bundled": false
     },
     {
@@ -507,6 +561,7 @@
       "file": "keyboard.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/keyboard.mp3",
       "icon": "keyboard.fill",
+      "iconLucide": "keyboard",
       "bundled": false
     },
     {
@@ -516,6 +571,7 @@
       "file": "paper.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/paper.mp3",
       "icon": "doc.text.fill",
+      "iconLucide": "file-text",
       "bundled": false
     },
     {
@@ -525,6 +581,7 @@
       "file": "singing-bowl.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/singing-bowl.mp3",
       "icon": "music.note",
+      "iconLucide": "music",
       "bundled": false
     },
     {
@@ -534,6 +591,7 @@
       "file": "slide-projector.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/slide-projector.mp3",
       "icon": "photo.fill",
+      "iconLucide": "image",
       "bundled": false
     },
     {
@@ -543,6 +601,7 @@
       "file": "tuning-radio.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/tuning-radio.mp3",
       "icon": "antenna.radiowaves.left.and.right",
+      "iconLucide": "antenna",
       "bundled": false
     },
     {
@@ -552,6 +611,7 @@
       "file": "typewriter.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/typewriter.mp3",
       "icon": "keyboard.fill",
+      "iconLucide": "keyboard",
       "bundled": false
     },
     {
@@ -561,6 +621,7 @@
       "file": "vinyl-effect.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/vinyl-effect.mp3",
       "icon": "opticaldisc.fill",
+      "iconLucide": "disc",
       "bundled": false
     },
     {
@@ -570,6 +631,7 @@
       "file": "rowing-boat.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/transport/rowing-boat.mp3",
       "icon": "figure.rower",
+      "iconLucide": "sailboat",
       "bundled": true
     },
     {
@@ -579,6 +641,7 @@
       "file": "airplane.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/transport/airplane.mp3",
       "icon": "airplane",
+      "iconLucide": "plane",
       "bundled": false
     },
     {
@@ -588,6 +651,7 @@
       "file": "inside-a-train.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/transport/inside-a-train.mp3",
       "icon": "tram.fill",
+      "iconLucide": "train-track",
       "bundled": false
     },
     {
@@ -597,6 +661,7 @@
       "file": "sailboat.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/transport/sailboat.mp3",
       "icon": "sailboat.fill",
+      "iconLucide": "ship",
       "bundled": false
     },
     {
@@ -606,6 +671,7 @@
       "file": "train.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/transport/train.mp3",
       "icon": "tram.fill",
+      "iconLucide": "train-track",
       "bundled": false
     },
     {
@@ -615,6 +681,7 @@
       "file": "binaural-alpha.wav",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/binaural/binaural-alpha.wav",
       "icon": "waveform",
+      "iconLucide": "audio-lines",
       "bundled": false
     },
     {
@@ -624,6 +691,7 @@
       "file": "binaural-beta.wav",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/binaural/binaural-beta.wav",
       "icon": "waveform.path",
+      "iconLucide": "audio-waveform",
       "bundled": false
     },
     {
@@ -633,6 +701,7 @@
       "file": "binaural-delta.wav",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/binaural/binaural-delta.wav",
       "icon": "waveform.path.ecg",
+      "iconLucide": "activity",
       "bundled": false
     },
     {
@@ -642,6 +711,7 @@
       "file": "binaural-gamma.wav",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/binaural/binaural-gamma.wav",
       "icon": "bolt.fill",
+      "iconLucide": "zap",
       "bundled": false
     },
     {
@@ -651,6 +721,7 @@
       "file": "binaural-theta.wav",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/binaural/binaural-theta.wav",
       "icon": "moon.zzz.fill",
+      "iconLucide": "bed",
       "bundled": false
     },
     {
@@ -660,6 +731,7 @@
       "file": "brown-noise.wav",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/noise/brown-noise.wav",
       "icon": "waveform",
+      "iconLucide": "audio-lines",
       "bundled": false
     },
     {
@@ -669,6 +741,7 @@
       "file": "pink-noise.wav",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/noise/pink-noise.wav",
       "icon": "waveform.path",
+      "iconLucide": "audio-waveform",
       "bundled": false
     },
     {
@@ -678,6 +751,7 @@
       "file": "white-noise.wav",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/noise/white-noise.wav",
       "icon": "dot.radiowaves.left.and.right",
+      "iconLucide": "radio-tower",
       "bundled": false
     },
     {
@@ -687,6 +761,7 @@
       "file": "ambulance-siren.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/ambulance-siren.mp3",
       "icon": "cross.case.fill",
+      "iconLucide": "ambulance",
       "bundled": false
     },
     {
@@ -696,6 +771,7 @@
       "file": "busy-street.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/busy-street.mp3",
       "icon": "building.2.fill",
+      "iconLucide": "building-2",
       "bundled": false
     },
     {
@@ -705,6 +781,7 @@
       "file": "crowd.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/crowd.mp3",
       "icon": "person.3.fill",
+      "iconLucide": "users",
       "bundled": false
     },
     {
@@ -714,6 +791,7 @@
       "file": "highway.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/highway.mp3",
       "icon": "car.fill",
+      "iconLucide": "car",
       "bundled": false
     },
     {
@@ -723,6 +801,7 @@
       "file": "road.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/road.mp3",
       "icon": "signpost.right.fill",
+      "iconLucide": "signpost",
       "bundled": false
     },
     {
@@ -732,6 +811,7 @@
       "file": "traffic.mp3",
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/traffic.mp3",
       "icon": "car.2.fill",
+      "iconLucide": "car-front",
       "bundled": false
     }
   ]

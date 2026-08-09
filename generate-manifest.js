@@ -6,6 +6,7 @@ const BRANCH = "main";
 const SOUNDS_DIR = "sounds";
 
 const icons = JSON.parse(readFileSync("icons.json", "utf-8"));
+const lucideIcons = JSON.parse(readFileSync("icon-map-lucide.json", "utf-8"));
 const bundled = JSON.parse(readFileSync("bundled.json", "utf-8"));
 const categories = JSON.parse(readFileSync("categories.json", "utf-8"));
 const nameOverrides = JSON.parse(readFileSync("names.json", "utf-8"));
@@ -35,6 +36,7 @@ for (const category of readdirSync(SOUNDS_DIR)) {
 
     const filenameId = basename(file, extname(file));
     const id = `${category}/${filenameId}`;
+    const icon = icons[id] || "waveform";
 
     sounds.push({
       id,
@@ -42,7 +44,8 @@ for (const category of readdirSync(SOUNDS_DIR)) {
       category,
       file,
       url: `https://cdn.jsdelivr.net/gh/${REPO}@${BRANCH}/sounds/${category}/${file}`,
-      icon: icons[id] || "waveform",
+      icon,
+      iconLucide: lucideIcons[icon] || "audio-lines",
       bundled: bundled.includes(id)
     });
   }
