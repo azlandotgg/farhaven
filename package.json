@@ -1,0 +1,10 @@
+{
+  "name": "sound-library",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sound assets and manifest generator for the sound mixer app",
+  "scripts": {
+    "build": "node generate-manifest.js"
+  }
+}
