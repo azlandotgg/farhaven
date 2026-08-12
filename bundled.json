@@ -1,7 +1,6 @@
 [
   "animals/wolf",
   "animals/woodpecker",
-  "events-culture/wedding-in-minya",
   "nature/campfire",
   "nature/walk-in-snow",
   "nature/waves",
@@ -17,5 +16,6 @@
   "worship/blue-mosque-istanbul",
   "worship/church",
   "worship/montbell-bonsho-von-japan",
-  "worship/temple"
+  "worship/temple",
+  "worship/wedding-in-minya"
 ]

@@ -1,12 +1,11 @@
 {
-  "version": 1786294865365,
+  "version": 1786536495047,
   "categories": {
+    "worship": "Worship & Ceremony",
     "rain": "Rain",
-    "worship": "Worship",
     "nature": "Nature",
     "places": "Places",
     "animals": "Animals",
-    "events-culture": "Events & Culture",
     "objects": "Objects",
     "transport": "Transport",
     "binaural": "Binaural",
@@ -14,13 +13,13 @@
     "urban": "Urban"
   },
   "categoryIcons": {
-    "rain": {
-      "icon": "cloud.rain.fill",
-      "iconLucide": "cloud-rain"
-    },
     "worship": {
       "icon": "building.columns.fill",
       "iconLucide": "landmark"
+    },
+    "rain": {
+      "icon": "cloud.rain.fill",
+      "iconLucide": "cloud-rain"
     },
     "nature": {
       "icon": "leaf.fill",
@@ -33,10 +32,6 @@
     "animals": {
       "icon": "pawprint.fill",
       "iconLucide": "paw-print"
-    },
-    "events-culture": {
-      "icon": "party.popper.fill",
-      "iconLucide": "party-popper"
     },
     "objects": {
       "icon": "shippingbox.fill",
@@ -60,6 +55,56 @@
     }
   },
   "sounds": [
+    {
+      "id": "worship/blue-mosque-istanbul",
+      "name": "Blue Mosque Istanbul",
+      "category": "worship",
+      "file": "blue-mosque-istanbul.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/blue-mosque-istanbul.mp3",
+      "icon": "moon.fill",
+      "iconLucide": "moon",
+      "bundled": true
+    },
+    {
+      "id": "worship/church",
+      "name": "Church",
+      "category": "worship",
+      "file": "church.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/church.mp3",
+      "icon": "cross.fill",
+      "iconLucide": "church",
+      "bundled": true
+    },
+    {
+      "id": "worship/montbell-bonsho-von-japan",
+      "name": "Japanese Temple Bell",
+      "category": "worship",
+      "file": "montbell-bonsho-von-japan.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/montbell-bonsho-von-japan.mp3",
+      "icon": "bell.fill",
+      "iconLucide": "bell",
+      "bundled": true
+    },
+    {
+      "id": "worship/temple",
+      "name": "Temple",
+      "category": "worship",
+      "file": "temple.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/temple.mp3",
+      "icon": "building.columns.fill",
+      "iconLucide": "landmark",
+      "bundled": true
+    },
+    {
+      "id": "worship/wedding-in-minya",
+      "name": "Wedding in Minya",
+      "category": "worship",
+      "file": "wedding-in-minya.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/wedding-in-minya.mp3",
+      "icon": "heart.fill",
+      "iconLucide": "heart",
+      "bundled": true
+    },
     {
       "id": "rain/heavy-rain",
       "name": "Heavy Rain",
@@ -131,6 +176,16 @@
       "bundled": false
     },
     {
+      "id": "rain/rain-on-tin-roof",
+      "name": "Rain on Tin Roof",
+      "category": "rain",
+      "file": "rain-on-tin-roof.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/rain-on-tin-roof.mp3",
+      "icon": "cloud.rain.fill",
+      "iconLucide": "cloud-rain",
+      "bundled": false
+    },
+    {
       "id": "rain/rain-on-umbrella",
       "name": "Rain on Umbrella",
       "category": "rain",
@@ -141,44 +196,14 @@
       "bundled": false
     },
     {
-      "id": "worship/blue-mosque-istanbul",
-      "name": "Blue Mosque Istanbul",
-      "category": "worship",
-      "file": "blue-mosque-istanbul.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/blue-mosque-istanbul.mp3",
-      "icon": "moon.fill",
-      "iconLucide": "moon",
-      "bundled": true
-    },
-    {
-      "id": "worship/church",
-      "name": "Church",
-      "category": "worship",
-      "file": "church.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/church.mp3",
-      "icon": "cross.fill",
-      "iconLucide": "church",
-      "bundled": true
-    },
-    {
-      "id": "worship/montbell-bonsho-von-japan",
-      "name": "Japanese Temple Bell",
-      "category": "worship",
-      "file": "montbell-bonsho-von-japan.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/montbell-bonsho-von-japan.mp3",
-      "icon": "bell.fill",
-      "iconLucide": "bell",
-      "bundled": true
-    },
-    {
-      "id": "worship/temple",
-      "name": "Temple",
-      "category": "worship",
-      "file": "temple.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/temple.mp3",
-      "icon": "building.columns.fill",
-      "iconLucide": "landmark",
-      "bundled": true
+      "id": "rain/thunderstorm",
+      "name": "Thunderstorm",
+      "category": "rain",
+      "file": "thunderstorm.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/thunderstorm.mp3",
+      "icon": "cloud.bolt.fill",
+      "iconLucide": "cloud-lightning",
+      "bundled": false
     },
     {
       "id": "nature/campfire",
@@ -211,6 +236,16 @@
       "bundled": true
     },
     {
+      "id": "nature/creek",
+      "name": "Creek",
+      "category": "nature",
+      "file": "creek.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/creek.mp3",
+      "icon": "water.waves",
+      "iconLucide": "waves",
+      "bundled": false
+    },
+    {
       "id": "nature/droplets",
       "name": "Droplets",
       "category": "nature",
@@ -218,6 +253,16 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/droplets.mp3",
       "icon": "drop.fill",
       "iconLucide": "droplet",
+      "bundled": false
+    },
+    {
+      "id": "nature/forest",
+      "name": "Forest",
+      "category": "nature",
+      "file": "forest.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/forest.mp3",
+      "icon": "leaf.fill",
+      "iconLucide": "leaf",
       "bundled": false
     },
     {
@@ -238,6 +283,16 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/jungle.mp3",
       "icon": "leaf.fill",
       "iconLucide": "leaf",
+      "bundled": false
+    },
+    {
+      "id": "nature/morning-meadow",
+      "name": "Morning Meadow",
+      "category": "nature",
+      "file": "morning-meadow.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/morning-meadow.mp3",
+      "icon": "bird.fill",
+      "iconLucide": "bird",
       "bundled": false
     },
     {
@@ -338,6 +393,26 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/crowded-bar.mp3",
       "icon": "wineglass.fill",
       "iconLucide": "wine",
+      "bundled": false
+    },
+    {
+      "id": "places/deep-sea",
+      "name": "Deep Sea",
+      "category": "places",
+      "file": "deep-sea.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/deep-sea.mp3",
+      "icon": "water.waves.and.arrow.trianglehead.down",
+      "iconLucide": "anchor",
+      "bundled": false
+    },
+    {
+      "id": "places/fireplace",
+      "name": "Fireplace",
+      "category": "places",
+      "file": "fireplace.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/fireplace.mp3",
+      "icon": "flame.fill",
+      "iconLucide": "flame",
       "bundled": false
     },
     {
@@ -471,6 +546,16 @@
       "bundled": false
     },
     {
+      "id": "animals/crickets",
+      "name": "Crickets",
+      "category": "animals",
+      "file": "crickets.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/crickets.mp3",
+      "icon": "ladybug.fill",
+      "iconLucide": "shell",
+      "bundled": false
+    },
+    {
       "id": "animals/crows",
       "name": "Crows",
       "category": "animals",
@@ -538,36 +623,6 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/animals/whale.mp3",
       "icon": "fish.fill",
       "iconLucide": "fish",
-      "bundled": false
-    },
-    {
-      "id": "events-culture/wedding-in-minya",
-      "name": "Wedding in Minya",
-      "category": "events-culture",
-      "file": "wedding-in-minya.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/events-culture/wedding-in-minya.mp3",
-      "icon": "heart.fill",
-      "iconLucide": "heart",
-      "bundled": true
-    },
-    {
-      "id": "events-culture/live-football-match",
-      "name": "Live Football Match",
-      "category": "events-culture",
-      "file": "live-football-match.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/events-culture/live-football-match.mp3",
-      "icon": "soccerball",
-      "iconLucide": "goal",
-      "bundled": false
-    },
-    {
-      "id": "events-culture/mother-earth",
-      "name": "Mother Earth",
-      "category": "events-culture",
-      "file": "mother-earth.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/events-culture/mother-earth.mp3",
-      "icon": "waveform",
-      "iconLucide": "audio-lines",
       "bundled": false
     },
     {
@@ -688,6 +743,16 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/transport/airplane.mp3",
       "icon": "airplane",
       "iconLucide": "plane",
+      "bundled": false
+    },
+    {
+      "id": "transport/car-driving",
+      "name": "Car Driving",
+      "category": "transport",
+      "file": "car-driving.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/transport/car-driving.mp3",
+      "icon": "car.fill",
+      "iconLucide": "car",
       "bundled": false
     },
     {
@@ -838,6 +903,16 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/highway.mp3",
       "icon": "car.fill",
       "iconLucide": "car",
+      "bundled": false
+    },
+    {
+      "id": "urban/live-football-match",
+      "name": "Live Football Match",
+      "category": "urban",
+      "file": "live-football-match.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/live-football-match.mp3",
+      "icon": "soccerball",
+      "iconLucide": "goal",
       "bundled": false
     },
     {

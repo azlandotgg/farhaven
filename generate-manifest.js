@@ -53,11 +53,16 @@ for (const category of readdirSync(SOUNDS_DIR)) {
 }
 
 // Categories with more bundled sounds sort first; sounds within a category
-// go bundled-first, alphabetical within each of those two groups.
+// go bundled-first, alphabetical within each of those two groups. "other" is
+// the one exception — a catch-all for sounds that don't fit any real
+// category, and it should always read as the last resort, not compete with
+// real categories for position just because it happens to pick up a bundled
+// sound.
 const bundledCountByCategory = {};
 for (const s of sounds) if (s.bundled) bundledCountByCategory[s.category] = (bundledCountByCategory[s.category] || 0) + 1;
 
 const categoryOrder = Object.keys(categories).sort((a, b) => {
+  if (a === "other" || b === "other") return a === "other" ? 1 : -1;
   const countDiff = (bundledCountByCategory[b] || 0) - (bundledCountByCategory[a] || 0);
   return countDiff !== 0 ? countDiff : a.localeCompare(b);
 });
