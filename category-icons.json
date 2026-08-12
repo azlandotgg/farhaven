@@ -8,5 +8,6 @@
   "rain": "cloud.rain.fill",
   "transport": "car.fill",
   "urban": "building.2.fill",
-  "worship": "building.columns.fill"
+  "worship": "building.columns.fill",
+  "other": "circle.grid.2x2.fill"
 }

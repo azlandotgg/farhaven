@@ -1,25 +1,26 @@
 {
-  "version": 1786536495047,
+  "version": 1786536895149,
   "categories": {
-    "worship": "Worship & Ceremony",
     "rain": "Rain",
+    "worship": "Worship & Ceremony",
     "nature": "Nature",
     "places": "Places",
     "animals": "Animals",
-    "objects": "Objects",
     "transport": "Transport",
     "binaural": "Binaural",
     "noise": "Noise",
-    "urban": "Urban"
+    "objects": "Objects",
+    "urban": "Urban",
+    "other": "Other"
   },
   "categoryIcons": {
-    "worship": {
-      "icon": "building.columns.fill",
-      "iconLucide": "landmark"
-    },
     "rain": {
       "icon": "cloud.rain.fill",
       "iconLucide": "cloud-rain"
+    },
+    "worship": {
+      "icon": "building.columns.fill",
+      "iconLucide": "landmark"
     },
     "nature": {
       "icon": "leaf.fill",
@@ -33,10 +34,6 @@
       "icon": "pawprint.fill",
       "iconLucide": "paw-print"
     },
-    "objects": {
-      "icon": "shippingbox.fill",
-      "iconLucide": "package"
-    },
     "transport": {
       "icon": "car.fill",
       "iconLucide": "car"
@@ -49,62 +46,20 @@
       "icon": "dot.radiowaves.left.and.right",
       "iconLucide": "radio-tower"
     },
+    "objects": {
+      "icon": "shippingbox.fill",
+      "iconLucide": "package"
+    },
     "urban": {
       "icon": "building.2.fill",
       "iconLucide": "building-2"
+    },
+    "other": {
+      "icon": "circle.grid.2x2.fill",
+      "iconLucide": "grid-2x2"
     }
   },
   "sounds": [
-    {
-      "id": "worship/blue-mosque-istanbul",
-      "name": "Blue Mosque Istanbul",
-      "category": "worship",
-      "file": "blue-mosque-istanbul.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/blue-mosque-istanbul.mp3",
-      "icon": "moon.fill",
-      "iconLucide": "moon",
-      "bundled": true
-    },
-    {
-      "id": "worship/church",
-      "name": "Church",
-      "category": "worship",
-      "file": "church.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/church.mp3",
-      "icon": "cross.fill",
-      "iconLucide": "church",
-      "bundled": true
-    },
-    {
-      "id": "worship/montbell-bonsho-von-japan",
-      "name": "Japanese Temple Bell",
-      "category": "worship",
-      "file": "montbell-bonsho-von-japan.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/montbell-bonsho-von-japan.mp3",
-      "icon": "bell.fill",
-      "iconLucide": "bell",
-      "bundled": true
-    },
-    {
-      "id": "worship/temple",
-      "name": "Temple",
-      "category": "worship",
-      "file": "temple.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/temple.mp3",
-      "icon": "building.columns.fill",
-      "iconLucide": "landmark",
-      "bundled": true
-    },
-    {
-      "id": "worship/wedding-in-minya",
-      "name": "Wedding in Minya",
-      "category": "worship",
-      "file": "wedding-in-minya.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/wedding-in-minya.mp3",
-      "icon": "heart.fill",
-      "iconLucide": "heart",
-      "bundled": true
-    },
     {
       "id": "rain/heavy-rain",
       "name": "Heavy Rain",
@@ -143,6 +98,16 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/thunder.mp3",
       "icon": "cloud.bolt.fill",
       "iconLucide": "cloud-lightning",
+      "bundled": true
+    },
+    {
+      "id": "rain/windshield-wipers",
+      "name": "Windshield Wipers",
+      "category": "rain",
+      "file": "windshield-wipers.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/rain/windshield-wipers.mp3",
+      "icon": "car.fill",
+      "iconLucide": "car",
       "bundled": true
     },
     {
@@ -206,6 +171,66 @@
       "bundled": false
     },
     {
+      "id": "worship/blue-mosque-istanbul",
+      "name": "Blue Mosque Istanbul",
+      "category": "worship",
+      "file": "blue-mosque-istanbul.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/blue-mosque-istanbul.mp3",
+      "icon": "moon.fill",
+      "iconLucide": "moon",
+      "bundled": true
+    },
+    {
+      "id": "worship/church",
+      "name": "Church",
+      "category": "worship",
+      "file": "church.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/church.mp3",
+      "icon": "cross.fill",
+      "iconLucide": "church",
+      "bundled": true
+    },
+    {
+      "id": "worship/montbell-bonsho-von-japan",
+      "name": "Japanese Temple Bell",
+      "category": "worship",
+      "file": "montbell-bonsho-von-japan.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/montbell-bonsho-von-japan.mp3",
+      "icon": "bell.fill",
+      "iconLucide": "bell",
+      "bundled": true
+    },
+    {
+      "id": "worship/temple",
+      "name": "Temple",
+      "category": "worship",
+      "file": "temple.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/temple.mp3",
+      "icon": "building.columns.fill",
+      "iconLucide": "landmark",
+      "bundled": true
+    },
+    {
+      "id": "worship/wedding-in-minya",
+      "name": "Wedding in Minya",
+      "category": "worship",
+      "file": "wedding-in-minya.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/wedding-in-minya.mp3",
+      "icon": "heart.fill",
+      "iconLucide": "heart",
+      "bundled": true
+    },
+    {
+      "id": "worship/singing-bowl",
+      "name": "Singing Bowl",
+      "category": "worship",
+      "file": "singing-bowl.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/worship/singing-bowl.mp3",
+      "icon": "music.note",
+      "iconLucide": "music",
+      "bundled": false
+    },
+    {
       "id": "nature/campfire",
       "name": "Campfire",
       "category": "nature",
@@ -253,6 +278,16 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/droplets.mp3",
       "icon": "drop.fill",
       "iconLucide": "droplet",
+      "bundled": false
+    },
+    {
+      "id": "nature/fireplace",
+      "name": "Fireplace",
+      "category": "nature",
+      "file": "fireplace.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/nature/fireplace.mp3",
+      "icon": "flame.fill",
+      "iconLucide": "flame",
       "bundled": false
     },
     {
@@ -376,16 +411,6 @@
       "bundled": true
     },
     {
-      "id": "places/construction-site",
-      "name": "Construction Site",
-      "category": "places",
-      "file": "construction-site.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/construction-site.mp3",
-      "icon": "hammer.fill",
-      "iconLucide": "hammer",
-      "bundled": false
-    },
-    {
       "id": "places/crowded-bar",
       "name": "Crowded Bar",
       "category": "places",
@@ -403,16 +428,6 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/deep-sea.mp3",
       "icon": "water.waves.and.arrow.trianglehead.down",
       "iconLucide": "anchor",
-      "bundled": false
-    },
-    {
-      "id": "places/fireplace",
-      "name": "Fireplace",
-      "category": "places",
-      "file": "fireplace.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/places/fireplace.mp3",
-      "icon": "flame.fill",
-      "iconLucide": "flame",
       "bundled": false
     },
     {
@@ -626,106 +641,6 @@
       "bundled": false
     },
     {
-      "id": "objects/windshield-wipers",
-      "name": "Windshield Wipers",
-      "category": "objects",
-      "file": "windshield-wipers.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/windshield-wipers.mp3",
-      "icon": "car.fill",
-      "iconLucide": "car",
-      "bundled": true
-    },
-    {
-      "id": "objects/ceiling-fan",
-      "name": "Ceiling Fan",
-      "category": "objects",
-      "file": "ceiling-fan.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/ceiling-fan.mp3",
-      "icon": "fan.fill",
-      "iconLucide": "fan",
-      "bundled": false
-    },
-    {
-      "id": "objects/clock",
-      "name": "Clock",
-      "category": "objects",
-      "file": "clock.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/clock.mp3",
-      "icon": "clock.fill",
-      "iconLucide": "clock",
-      "bundled": false
-    },
-    {
-      "id": "objects/keyboard",
-      "name": "Keyboard",
-      "category": "objects",
-      "file": "keyboard.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/keyboard.mp3",
-      "icon": "keyboard.fill",
-      "iconLucide": "keyboard",
-      "bundled": false
-    },
-    {
-      "id": "objects/paper",
-      "name": "Paper",
-      "category": "objects",
-      "file": "paper.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/paper.mp3",
-      "icon": "doc.text.fill",
-      "iconLucide": "file-text",
-      "bundled": false
-    },
-    {
-      "id": "objects/singing-bowl",
-      "name": "Singing Bowl",
-      "category": "objects",
-      "file": "singing-bowl.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/singing-bowl.mp3",
-      "icon": "music.note",
-      "iconLucide": "music",
-      "bundled": false
-    },
-    {
-      "id": "objects/slide-projector",
-      "name": "Slide Projector",
-      "category": "objects",
-      "file": "slide-projector.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/slide-projector.mp3",
-      "icon": "photo.fill",
-      "iconLucide": "image",
-      "bundled": false
-    },
-    {
-      "id": "objects/tuning-radio",
-      "name": "Tuning Radio",
-      "category": "objects",
-      "file": "tuning-radio.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/tuning-radio.mp3",
-      "icon": "antenna.radiowaves.left.and.right",
-      "iconLucide": "antenna",
-      "bundled": false
-    },
-    {
-      "id": "objects/typewriter",
-      "name": "Typewriter",
-      "category": "objects",
-      "file": "typewriter.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/typewriter.mp3",
-      "icon": "keyboard.fill",
-      "iconLucide": "keyboard",
-      "bundled": false
-    },
-    {
-      "id": "objects/vinyl-effect",
-      "name": "Vinyl Effect",
-      "category": "objects",
-      "file": "vinyl-effect.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/vinyl-effect.mp3",
-      "icon": "opticaldisc.fill",
-      "iconLucide": "disc",
-      "bundled": false
-    },
-    {
       "id": "transport/rowing-boat",
       "name": "Rowing Boat",
       "category": "transport",
@@ -866,6 +781,86 @@
       "bundled": false
     },
     {
+      "id": "objects/ceiling-fan",
+      "name": "Ceiling Fan",
+      "category": "objects",
+      "file": "ceiling-fan.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/ceiling-fan.mp3",
+      "icon": "fan.fill",
+      "iconLucide": "fan",
+      "bundled": false
+    },
+    {
+      "id": "objects/clock",
+      "name": "Clock",
+      "category": "objects",
+      "file": "clock.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/clock.mp3",
+      "icon": "clock.fill",
+      "iconLucide": "clock",
+      "bundled": false
+    },
+    {
+      "id": "objects/keyboard",
+      "name": "Keyboard",
+      "category": "objects",
+      "file": "keyboard.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/keyboard.mp3",
+      "icon": "keyboard.fill",
+      "iconLucide": "keyboard",
+      "bundled": false
+    },
+    {
+      "id": "objects/paper",
+      "name": "Paper",
+      "category": "objects",
+      "file": "paper.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/paper.mp3",
+      "icon": "doc.text.fill",
+      "iconLucide": "file-text",
+      "bundled": false
+    },
+    {
+      "id": "objects/slide-projector",
+      "name": "Slide Projector",
+      "category": "objects",
+      "file": "slide-projector.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/slide-projector.mp3",
+      "icon": "photo.fill",
+      "iconLucide": "image",
+      "bundled": false
+    },
+    {
+      "id": "objects/tuning-radio",
+      "name": "Tuning Radio",
+      "category": "objects",
+      "file": "tuning-radio.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/tuning-radio.mp3",
+      "icon": "antenna.radiowaves.left.and.right",
+      "iconLucide": "antenna",
+      "bundled": false
+    },
+    {
+      "id": "objects/typewriter",
+      "name": "Typewriter",
+      "category": "objects",
+      "file": "typewriter.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/typewriter.mp3",
+      "icon": "keyboard.fill",
+      "iconLucide": "keyboard",
+      "bundled": false
+    },
+    {
+      "id": "objects/vinyl-effect",
+      "name": "Vinyl Effect",
+      "category": "objects",
+      "file": "vinyl-effect.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/objects/vinyl-effect.mp3",
+      "icon": "opticaldisc.fill",
+      "iconLucide": "disc",
+      "bundled": false
+    },
+    {
       "id": "urban/ambulance-siren",
       "name": "Ambulance Siren",
       "category": "urban",
@@ -883,6 +878,16 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/busy-street.mp3",
       "icon": "building.2.fill",
       "iconLucide": "building-2",
+      "bundled": false
+    },
+    {
+      "id": "urban/construction-site",
+      "name": "Construction Site",
+      "category": "urban",
+      "file": "construction-site.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/construction-site.mp3",
+      "icon": "hammer.fill",
+      "iconLucide": "hammer",
       "bundled": false
     },
     {
@@ -906,16 +911,6 @@
       "bundled": false
     },
     {
-      "id": "urban/live-football-match",
-      "name": "Live Football Match",
-      "category": "urban",
-      "file": "live-football-match.mp3",
-      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/live-football-match.mp3",
-      "icon": "soccerball",
-      "iconLucide": "goal",
-      "bundled": false
-    },
-    {
       "id": "urban/road",
       "name": "Road",
       "category": "urban",
@@ -933,6 +928,16 @@
       "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/urban/traffic.mp3",
       "icon": "car.2.fill",
       "iconLucide": "car-front",
+      "bundled": false
+    },
+    {
+      "id": "other/live-football-match",
+      "name": "Live Football Match",
+      "category": "other",
+      "file": "live-football-match.mp3",
+      "url": "https://cdn.jsdelivr.net/gh/azlandotgg/farhaven@main/sounds/other/live-football-match.mp3",
+      "icon": "soccerball",
+      "iconLucide": "goal",
       "bundled": false
     }
   ]
