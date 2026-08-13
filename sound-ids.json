@@ -19,7 +19,6 @@
   "binaural/binaural-delta": "54c4e6f2-e3fa-4fb9-83a4-c179e6373c48",
   "binaural/binaural-gamma": "b82f6cda-daac-4ae3-a4e5-44d2beef677a",
   "binaural/binaural-theta": "85a65f7a-4ced-4a3b-9376-e20fdcf29f83",
-  "nature/campfire": "e3e1ec95-47fd-43ef-bc23-0248833588e3",
   "nature/creek": "fa5f7ccb-b9dc-4e04-8379-4fe7a7623913",
   "nature/droplets": "69bd7ac1-85c5-4dde-9a8b-7320feda9a3a",
   "nature/fireplace": "2f4a917d-a4e4-4998-b1dd-68471ac8f669",
@@ -46,11 +45,9 @@
   "objects/typewriter": "203ef8cb-44c7-44ca-bbaf-96f6faf73894",
   "objects/vinyl-effect": "598305ad-eb9f-478e-892c-c4febb58f340",
   "other/live-football-match": "1d14f9c3-5fdd-4d3d-819f-526bc33f1ebb",
-  "places/cafe": "e33bef8f-a3a8-4be4-80ce-b46f32d0a3c0",
   "places/crowded-bar": "bf5719f4-26e4-4633-b281-84fd08b316dc",
   "places/deep-sea": "82a77c63-2c70-44fd-853a-043f6ad73758",
   "places/laundry-room": "bce8f741-da74-4333-b1d0-da33e71db33a",
-  "places/library": "086e1e0c-5a1b-4af6-9069-079d4fb33a1c",
   "places/night-village": "5955e141-3296-4696-9523-d7c5bbd1a32c",
   "places/office": "3e2c5447-396a-4b14-859b-ff85bfaa75a7",
   "places/restaurant": "e780a014-aba9-429e-a777-05d21db69037",
@@ -84,7 +81,5 @@
   "worship/blue-mosque-istanbul": "7faa33cb-2690-4259-a418-dd315041711d",
   "worship/church": "d9b93a82-5e58-4f58-a94b-7d8153695dae",
   "worship/montbell-bonsho-von-japan": "bddd5774-ef09-47ef-a7af-d37ded771194",
-  "worship/singing-bowl": "cb661427-1fd2-437e-9c2a-ce1f68ce5cd6",
-  "worship/temple": "a7db03bb-c5e8-4935-98c8-312dbe98aea0",
-  "worship/wedding-in-minya": "6fed6948-1739-4ef4-955a-0acebdbed60b"
+  "worship/singing-bowl": "cb661427-1fd2-437e-9c2a-ce1f68ce5cd6"
 }

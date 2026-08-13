@@ -19,7 +19,6 @@
   "binaural/binaural-delta": "waveform.path.ecg",
   "binaural/binaural-gamma": "bolt.fill",
   "binaural/binaural-theta": "moon.zzz.fill",
-  "nature/campfire": "flame.fill",
   "nature/creek": "water.waves",
   "nature/droplets": "drop.fill",
   "nature/fireplace": "flame.fill",
@@ -37,11 +36,9 @@
   "noise/brown-noise": "waveform",
   "noise/pink-noise": "waveform.path",
   "noise/white-noise": "dot.radiowaves.left.and.right",
-  "places/cafe": "cup.and.saucer.fill",
   "places/crowded-bar": "wineglass.fill",
   "places/deep-sea": "water.waves.and.arrow.trianglehead.down",
   "places/laundry-room": "tshirt.fill",
-  "places/library": "books.vertical.fill",
   "places/night-village": "moon.stars.fill",
   "places/office": "briefcase.fill",
   "places/restaurant": "fork.knife",
@@ -84,7 +81,5 @@
   "worship/church": "cross.fill",
   "worship/montbell-bonsho-von-japan": "bell.fill",
   "worship/singing-bowl": "music.note",
-  "worship/temple": "building.columns.fill",
-  "worship/wedding-in-minya": "heart.fill",
   "other/live-football-match": "soccerball"
 }

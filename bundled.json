@@ -1,12 +1,9 @@
 [
   "animals/wolf",
   "animals/woodpecker",
-  "nature/campfire",
   "nature/walk-in-snow",
   "nature/waves",
   "noise/brown-noise",
-  "places/cafe",
-  "places/library",
   "places/underwater",
   "rain/heavy-rain",
   "rain/light-rain",
@@ -18,7 +15,5 @@
   "transport/sailboat",
   "worship/blue-mosque-istanbul",
   "worship/church",
-  "worship/montbell-bonsho-von-japan",
-  "worship/temple",
-  "worship/wedding-in-minya"
+  "worship/montbell-bonsho-von-japan"
 ]
