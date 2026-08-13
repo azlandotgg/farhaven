@@ -1,5 +1,5 @@
 {
-  "version": 1786617104284,
+  "version": 1786628092066,
   "categories": {
     "rain": "Rain",
     "worship": "Worship & Ceremony",
@@ -12,52 +12,6 @@
     "objects": "Objects",
     "urban": "Urban",
     "other": "Other"
-  },
-  "categoryIcons": {
-    "rain": {
-      "icon": "cloud.rain.fill",
-      "iconLucide": "cloud-rain"
-    },
-    "worship": {
-      "icon": "building.columns.fill",
-      "iconLucide": "landmark"
-    },
-    "nature": {
-      "icon": "leaf.fill",
-      "iconLucide": "leaf"
-    },
-    "places": {
-      "icon": "mappin.and.ellipse",
-      "iconLucide": "map-pin"
-    },
-    "animals": {
-      "icon": "pawprint.fill",
-      "iconLucide": "paw-print"
-    },
-    "transport": {
-      "icon": "car.fill",
-      "iconLucide": "car"
-    },
-    "binaural": {
-      "icon": "waveform.path.ecg",
-      "iconLucide": "activity"
-    },
-    "noise": {
-      "icon": "dot.radiowaves.left.and.right",
-      "iconLucide": "radio-tower"
-    },
-    "objects": {
-      "icon": "shippingbox.fill",
-      "iconLucide": "package"
-    },
-    "urban": {
-      "icon": "building.2.fill",
-      "iconLucide": "building-2"
-    },
-    "other": {
-      "icon": "circle.grid.2x2.fill",
-      "iconLucide": "grid-2x2"
-    }
   },
   "sounds": [
     {

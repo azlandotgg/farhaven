@@ -11,7 +11,6 @@ const icons = JSON.parse(readFileSync("icons.json", "utf-8"));
 const lucideIcons = JSON.parse(readFileSync("icon-map-lucide.json", "utf-8"));
 const bundled = JSON.parse(readFileSync("bundled.json", "utf-8"));
 const categories = JSON.parse(readFileSync("categories.json", "utf-8"));
-const categoryIconsIn = JSON.parse(readFileSync("category-icons.json", "utf-8"));
 const nameOverrides = JSON.parse(readFileSync("names.json", "utf-8"));
 const soundIdsIn = existsSync(SOUND_IDS_FILE) ? JSON.parse(readFileSync(SOUND_IDS_FILE, "utf-8")) : {};
 
@@ -147,12 +146,6 @@ const categoryRank = Object.fromEntries(categoryOrder.map((slug, i) => [slug, i]
 const orderedCategories = {};
 for (const slug of categoryOrder) orderedCategories[slug] = categories[slug];
 
-const categoryIcons = {};
-for (const slug of categoryOrder) {
-  const icon = categoryIconsIn[slug] || "waveform";
-  categoryIcons[slug] = { icon, iconLucide: lucideIcons[icon] || "audio-lines" };
-}
-
 sounds.sort((a, b) => {
   const rankDiff = categoryRank[a.category] - categoryRank[b.category];
   if (rankDiff !== 0) return rankDiff;
@@ -185,7 +178,6 @@ writeFileSync(
     {
       version: Date.now(),
       categories: orderedCategories,
-      categoryIcons,
       sounds: sounds.map(({ pathKey, ...sound }) => sound),
     },
     null,
@@ -198,12 +190,6 @@ const missingIcons = sounds.filter((s) => !icons[s.pathKey]);
 if (missingIcons.length) {
   console.log(`\nNo icons.json entry for: ${missingIcons.map((s) => s.pathKey).join(", ")}`);
   console.log(`These fell back to "waveform" — add them to icons.json when ready.`);
-}
-
-const missingCategoryIcons = categoryOrder.filter((slug) => !categoryIconsIn[slug]);
-if (missingCategoryIcons.length) {
-  console.log(`\nNo category-icons.json entry for: ${missingCategoryIcons.join(", ")}`);
-  console.log(`These fell back to "waveform" — add them to category-icons.json when ready.`);
 }
 
 const pathKeysByName = {};
